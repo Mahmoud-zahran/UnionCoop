@@ -11,7 +11,9 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="726a7abc-3d42-4ad5-a7bd-1719cc15e48b" name="Default Changelist" comment="initial commit with all app feature needs." />
+    <list default="true" id="726a7abc-3d42-4ad5-a7bd-1719cc15e48b" name="Default Changelist" comment="initial commit with all app feature needs.">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/UnionCoop/ui/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/UnionCoop/ui/MainActivity.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -313,17 +315,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/UnionCoop/ui/MainActivity.java</url>
-          <line>42</line>
+          <line>41</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/UnionCoop/ui/MainActivity.java</url>
-          <line>41</line>
+          <line>40</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/UnionCoop/ui/MainActivity.java</url>
-          <line>82</line>
+          <line>80</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-method">

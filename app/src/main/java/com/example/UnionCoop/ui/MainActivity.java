@@ -35,10 +35,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-//        Toolbar toolbar= binding.toolbar.getRoot();
         setSupportActionBar(binding.toolbar.getRoot());
         getSupportActionBar().setDisplayShowTitleEnabled(false);
-//        binding.toolbar.getRoot().setTitle("Trending");
+
         if (!isNetworkConnected()/*||!isInternetAvailable()*/){
             getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout,new ConnectionLost())
                     .commit();
@@ -61,13 +60,12 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if (item.getItemId() == R.id.openFav){
             isFavoriteListVisible = false;
-//                  binding.changeFragment.setText("Favorites");
+
             getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout,new Favorites())
                             .commit();
         }
         if (item.getItemId() == R.id.openHome){
             isFavoriteListVisible = false;
-//                  binding.changeFragment.setText("Favorites");
             getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout,new Home())
                     .commit();
         }
