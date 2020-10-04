@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.rasoulmiri:Skeleton:v1.1.4@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6f934037133ef52d6aafd00155078399/jetified-Skeleton-v1.1.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6f934037133ef52d6aafd00155078399/jetified-Skeleton-v1.1.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6f934037133ef52d6aafd00155078399/jetified-Skeleton-v1.1.4/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.rasoulmiri/Skeleton/v1.1.4/cd733db747fd6bd8076c9124ad38a8482a309edc/Skeleton-v1.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
